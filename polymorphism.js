@@ -35,3 +35,20 @@ const cat = new Cat();
 
 triggerSound(dog);
 triggerSound(cat);
+
+
+
+function fly(bird) {
+  bird.fly();
+}
+
+const duck = {
+  fly: () => console.log("Duck flying"),
+};
+
+const eagle = {
+  fly: () => console.log("Eagle flying"),
+};
+
+fly(duck); // Duck flying
+fly(eagle); // Eagle flying
