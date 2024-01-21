@@ -1,5 +1,9 @@
 /**
  * Js inheritance
+ * Class inheritance in JavaScript is a mechanism that allows one class (child or derived class)
+ * to inherit properties and methods from another class (parent or base class).
+ * It's a fundamental concept in object-oriented programming that helps in
+ * code reusability and creating hierarchical relationships between classes.
  */
 
 class Person {
